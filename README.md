@@ -10,7 +10,7 @@ A program that automatically organize the files on computer system to dedicated 
 
 ### Next Steps:
 
-- [ ] Clear Empty Folders
+- [x] Clear Empty Folders
 - [ ] Recognize Movies
 - [ ] Recognize Tv-Shows
 - [ ] Organize Movies

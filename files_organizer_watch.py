@@ -11,8 +11,8 @@ import files_organizer
 
 class MyHandler(FileSystemEventHandler):
     def on_modified(self, event):
-       files_organizer.scan_folders()
-        
+        files_organizer.scan_folders()
+                
 
 extensions_folders = folders_tree.folders()
 event_handler = MyHandler()

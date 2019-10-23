@@ -3,20 +3,20 @@ import mimetypes
 import shutil
 import folders_tree
 import send2trash
+import threading, time
+
 
 def scan_folders():
     folder_to_track = folders_tree.folder_to_track()
-    for folderName, subfolders, filenames in os.walk(folder_to_track):
+    for folderName, subfolders, filenames in os.walk(folder_to_track, topdown=False):
         for filename in filenames:
             os.chdir(folderName)
             move_file()
             remove_empty_folders()
-            
     
-
 def remove_empty_folders():
     folder_to_track = folders_tree.folder_to_track()
-    for folderName, subfolders, filenames in os.walk(folder_to_track):
+    for folderName, subfolders, filenames in os.walk(folder_to_track, topdown=False):
         for subfolder in subfolders:
             try:
                 subfolder = os.path.join(folderName, subfolder)
@@ -30,8 +30,6 @@ def remove_empty_folders():
             except:
                 pass
     
-
-
 def move_file():
     extensions_folders = folders_tree.folders()
     folder_to_track = folders_tree.folder_to_track()
@@ -48,4 +46,3 @@ def move_file():
 
 
 scan_folders()
-
