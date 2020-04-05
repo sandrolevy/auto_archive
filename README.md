@@ -38,7 +38,7 @@ C:\Users\current_user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Star
 
 ## Before x After
 ![before](https://i.imgur.com/lK4TVC5.png)
-![after](https://imgur.com/7grV2JO)
+![after](https://i.imgur.com/7grV2JO.png)
 
 ## Author
 Sandro Levy
