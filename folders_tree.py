@@ -1,5 +1,11 @@
 import os
 
+
+def folder_to_track():
+    folder = r'C:\Users\You_User\Folder\To_organize'
+    return folder
+
+
 def folders():
     folder = folder_to_track()
     extensions_folders = {
@@ -153,8 +159,5 @@ def folders():
     }
     return extensions_folders
 
-def folder_to_track():
-    folder = r'C:\Users\You_User\Folder\To_organize'
-    return folder
     
     
