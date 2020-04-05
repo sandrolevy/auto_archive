@@ -154,7 +154,7 @@ def folders():
     return extensions_folders
 
 def folder_to_track():
-    folder = r'D:\Users\Levy\Downloads\Teste'
+    folder = r'C:\Users\You_User\Folder\To_organize'
     return folder
     
     
