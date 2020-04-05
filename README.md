@@ -13,7 +13,7 @@ There are two main options in this program.
 
 ## Requirement
 - Python v3 or superior installed.
-- Click Here if you want to learn how to install it.
+- [Click Here](https://www.notion.so/vidaprodutiva/Python-3-Installation-Setup-Guide-8afdbc90815946bbad1b7f6306cc2b82) if you want to learn how to install it.
 
 ## Getting Starting
 This will create a copy of the program to your local machine and prepare your environment to run the script.
