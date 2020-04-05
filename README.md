@@ -1,21 +1,8 @@
-# File Auto Organizer
+# Directory Auto Cleaner
 
 A program that automatically organize the files on computer system to dedicated folders based on the type of file.
+There are two main options in this program.
 
+1. Run manually using the files_organize.py
+2. Set the script to staying running in the background and get the job done automatically 😮
 
-
-### Work Still In Progress...
-
-
-
-### Next Steps:
-
-- [x] Clear Empty Folders
-- [ ] Recognize Movies
-- [ ] Recognize Tv-Shows
-- [ ] Organize Movies
-- [ ] Organize Tv-Shows
-
-
-
-:)
